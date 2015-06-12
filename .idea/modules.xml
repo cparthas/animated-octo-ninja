@@ -7,8 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/dao/dao.iml" filepath="$PROJECT_DIR$/dao/dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/exception-handler/exception-handler.iml" filepath="$PROJECT_DIR$/exception-handler/exception-handler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/license-manager/license-manager.iml" filepath="$PROJECT_DIR$/license-manager/license-manager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/licensing/licensing.iml" filepath="$PROJECT_DIR$/licensing/licensing.iml" />
       <module fileurl="file://$PROJECT_DIR$/message-handler/message-handler.iml" filepath="$PROJECT_DIR$/message-handler/message-handler.iml" />
       <module fileurl="file://$PROJECT_DIR$/notification-engine/notification-engine.iml" filepath="$PROJECT_DIR$/notification-engine/notification-engine.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugin-invoker/plugin-invoker.iml" filepath="$PROJECT_DIR$/plugin-invoker/plugin-invoker.iml" />
