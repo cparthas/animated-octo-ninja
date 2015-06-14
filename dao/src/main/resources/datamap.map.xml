@@ -50,4 +50,6 @@
 	</db-relationship>
 	<obj-relationship name="roleid" source="UserRole" target="Role" lock="true" deleteRule="Deny" db-relationship-path="roleid"/>
 	<obj-relationship name="userid" source="UserRole" target="User" lock="true" deleteRule="Deny" db-relationship-path="userid"/>
+	<query name="findUser" factory="org.apache.cayenne.map.SelectQueryBuilder" root="obj-entity" root-name="User">
+	</query>
 </data-map>

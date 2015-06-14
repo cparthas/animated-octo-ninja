@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    compile group: 'org.apache.cayenne', name: 'cayenne-client', version: '3.0'
+//    compile group: 'org.apache.cayenne', name: 'cayenne-client', version: '3.0'
     compile group: 'org.apache.cayenne', name: 'cayenne-server', version: '3.0'
     compile group: 'org.apache.derby', name: 'derby', version: '10.8.1.2'
     compile project(':common')
