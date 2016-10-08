@@ -1,0 +1,25 @@
+{
+  "id": "http://crow.techaxons.com/workflow-schema#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Workflow",
+  "description": "Workflow for crow",
+  "type": "object",
+  "properties": {
+    "workflowId": {
+      "description": "The unique identifier for a workflow",
+      "type": "integer"
+    },
+    "workflowName": {
+      "description": "Name of the workflow",
+      "type": "string"
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  }
+}
