@@ -4,6 +4,14 @@
   "description": "Node of the crow workflow",
   "type": "object",
   "properties": {
+    "workflowId": {
+      "description": "The unique identifier for a workflow",
+      "type": "integer"
+    },
+    "workflowName": {
+      "description": "Name of the workflow",
+      "type": "string"
+    },
     "id": {
       "description": "The unique identifier for a node",
       "type": "integer"
@@ -28,6 +36,14 @@
       "description": "This referes to the identifier of the previous node in the workflow",
       "type": "string"
     },
+    "createdDt": {
+      "description": "Date when node is created - format : yyyy-MM-dd",
+      "type": "string"
+    },
+    "modifiedDt": {
+      "description": "Date when node is modified - format : yyyy-MM-dd",
+      "type": "string"
+    },
     "axis": {
       "type": "object",
       "properties": {
@@ -37,5 +53,5 @@
       "required": ["x", "y"]
     }
   },
-  "required": ["id","name","type","axis"]
+  "required": ["workflowId","workflowName","id","name","type","axis"]
 }
