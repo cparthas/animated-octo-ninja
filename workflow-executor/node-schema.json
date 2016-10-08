@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Node",
+  "description": "Node of the crow workflow",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier for a node",
+      "type": "integer"
+    },
+    "name": {
+      "description": "Name for a node",
+      "type": "string"
+    },
+    "type": {
+      "description": "Type of the node, this could be start, stop, task, condition and notifier",
+      "type": "string"
+    },
+    "previousNode": {
+      "description": "This referes to the identifier of the previous node in the workflow",
+      "type": "integer"
+    },
+    "nextNode": {
+      "description": "This referes to the identifier of the next node in the workflow",
+      "type": "integer"
+    },
+    "status": {
+      "description": "This referes to the identifier of the previous node in the workflow",
+      "type": "string"
+    },
+    "axis": {
+      "type": "object",
+      "properties": {
+        "x": {"type": "number"},
+        "y": {"type": "number"}
+      },
+      "required": ["x", "y"]
+    }
+  },
+  "required": ["id","name","type","axis"]
+}
