@@ -1,5 +1,5 @@
 {
-  "id": "http://crow.techaxons.com/workflow-schema#",
+  "id": "http://crow.techaxons.com/schema/workflow-schema.json",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Workflow",
   "description": "Workflow for crow",
@@ -18,7 +18,7 @@
       "items": {
         "type": "object",
         "properties": {
-          "node" : {"$ref":"http://crow.techaxons.com/node-schema#"}
+          "node" : {"$ref":"http://crow.techaxons.com/schema/node-schema.json"}
         }
       },
       "minItems": 1,
