@@ -16,7 +16,10 @@
     "nodes": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "object",
+        "properties": {
+          "node" : {"$ref":"http://crow.techaxons.com/node-schema#"}
+        }
       },
       "minItems": 1,
       "uniqueItems": true

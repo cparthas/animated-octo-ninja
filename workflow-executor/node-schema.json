@@ -50,6 +50,9 @@
       "minItems":1,
       "items": {
         "type": "object",
+        "properties" : {
+          "operation" : {"$ref":"http://crow.techaxons.com/operation-schema#"}
+        },
         "uniqueItems": true
       }
 
